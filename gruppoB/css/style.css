@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+section {
+    padding-top: 1em;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.orange_bg {
+    background-color: #f27d2c;
+}
+
+.orange_text {
+    color:#f27d2c;
+}
+
+.celeste_bg {
+    background-color: #009999;
+}
+
+.celeste_text {
+    color:#009999;
+}

@@ -1,0 +1,26 @@
+.marzo{
+    width: 40%;
+    min-width: 310px;
+    min-height: 230px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-color: silver;
+    border-radius: 55px;
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 5px 2px 2px rgba(0, 0, 0, 0.25);       
+}
+
+.icoSize{
+    width: 40px;
+    height: 40px;
+}
+
+.icoDistance{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

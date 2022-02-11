@@ -1,0 +1,29 @@
+.sondaggi img {
+    width: 70vw;
+
+}
+
+.sondaggi .dati{
+    height: 30vh;
+    margin: 10px;
+}
+
+.sondaggi .border{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin: 10%;
+    height:8vh;
+    width:20vw;
+}
+
+.sondaggi .mr-3 {
+    width:1rem;
+}
+
+.sondaggi p{
+    margin-top: 10px;
+}
+
+.sondaggi h5 {
+    font-size: 1rem;
+}

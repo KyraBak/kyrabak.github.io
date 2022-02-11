@@ -1,0 +1,57 @@
+.carousel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bgm{
+    background-color: #EA7D3A;
+}
+
+.bgp{
+    background-color: #FFBF75;
+}
+
+.bge{
+    background-color: #FFBF75AB;
+}
+
+.shadowpersbn{
+    -webkit-filter: drop-shadow(4px 4px 4px #222);
+    filter: drop-shadow(4px 4px 4px #222);
+    filter: grayscale(100%);
+
+}
+
+.imgCAR {
+    display: block;
+    max-width: 35%;
+    height: auto;
+}
+
+.imgFOOT {
+    min-width: 55%;
+    height: auto;
+}
+
+.shadowpers{
+    -webkit-filter: drop-shadow(4px 4px 4px #222);
+    filter: drop-shadow(4px 4px 4px #222);
+}
+
+.margpers{
+    margin-top: 20px;
+}
+
+.fondo{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.telefono{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border: solid;
+}

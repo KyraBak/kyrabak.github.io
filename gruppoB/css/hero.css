@@ -1,0 +1,12 @@
+.slidePrincipale{
+    height: 50vh;
+    width: 65vw;
+    }
+
+.corsi_button{
+    background-color:#009999;
+    color: white;
+    border-radius: 50px;
+    width: 15%;
+    min-width: 80px;
+}

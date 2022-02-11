@@ -1,0 +1,43 @@
+.partner{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-partner{
+    color: #eee;
+    width: 100vw;
+    height: 10vh;
+     overflow: hidden;
+}
+
+.carousel-content{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 65s linear infinite;
+}
+@keyframes scrolling{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(calc(-1*20vw*13));}
+}
+
+.carousel-content:hover{
+    animation-play-state: paused;
+}
+
+.carousel-content li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+@media screen and (max-width:992px){
+    .partner{
+        display: none;
+    }
+}

@@ -1,0 +1,188 @@
+.prenotaDiv {
+   display: none;
+}
+
+.logo_geeks {
+    display: none;
+}
+
+.bottone_prenota {
+    display: none;
+}
+
+
+.prenotaDiv_bottom {
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        bottom: 0;
+}
+
+.logo_geeks_bottom {
+        width: 75%;
+        display: inline;
+}
+
+.bottone_prenota_bottom {
+        
+        height: 40%;
+        width: 100%;
+        margin-right: 20px;
+        border: #009999;
+        background-color: #009999;
+        border-radius: 50px;
+        font-weight: bold;
+}
+
+
+.section_sedi {
+    background: linear-gradient(180deg, #FFFFFF 0%, #36BEBE 58.33%, #009999 100%);
+}
+
+.container_sedi {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.bg_numeri {
+    background-color: #F27D2C;
+}
+
+.bandiera {
+    width: 25px;
+    height: 25px;
+}
+
+.location {
+    width: 100%;
+    filter: brightness(0%);
+}
+
+.container_storie {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.storie_foto {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.testo_storie {
+    font-size: 1rem;
+}
+
+.toCount {
+    font-weight: bold;
+
+}
+
+.loghiCert {
+    width: 50%;
+    padding: 2%;
+}
+
+.storie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.storie_contenuto {
+    width: 75%;
+}
+
+.containerTest {
+    width: 100%;
+
+    
+ 
+    background-color: blue;
+}
+
+@media screen and (min-width:980px){
+
+    .prenotaDiv_bottom {
+        display: none;
+        bottom: auto;
+    }
+
+    .logo_geeks_bottom {
+        display: none;
+    }
+
+    .bottone_prenota_bottom {
+        display: none;
+    }
+
+    
+    .prenotaDiv {
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        z-index: 999;
+    }
+
+    .logo_geeks {
+        width: 300px;
+        display: inline;
+    }
+    
+    .bottone_prenota {
+        display: inline;
+        height: 90%;
+        width: 100%;
+        border: #009999;
+        background-color: #009999;
+        border-radius: 50px;
+        font-weight: bold;
+    }
+
+    .loghiCert {
+        width: 10%;
+        transition: transform .1s;
+    }
+    .loghiCert:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(2); 
+    }
+    .container_sedi {
+        width: 50%;
+    }
+    .bandiera {
+        width: 20%;
+        height: 15%;
+    }
+    .toCount {
+        font-size: 3em;
+    }
+    .toCountSymbol {
+        font-size: 3em;
+    }
+    .storie {
+        
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+    }
+    .storie_contenuto {
+        font-style: italic;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+}

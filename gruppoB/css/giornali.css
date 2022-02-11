@@ -1,0 +1,21 @@
+
+.giornali{
+    background-color: #eeeeee;
+}
+
+@media screen and (max-width:980px){
+    .img-txt{
+        display: block;
+    }
+
+    .img-giornali{
+        text-align: center;
+    }
+
+    .txt-giornali{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+}

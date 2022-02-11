@@ -1,0 +1,25 @@
+.metaverso .marzo22 {
+    background: linear-gradient( #009999, rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+.metaverso .container{
+    margin-top: 10px;
+    height:20vh;
+}
+
+.metaverso img {
+    width: 12.5%;
+    padding: 2%;
+}
+
+.metaverso .certificazioni{
+    margin-top: 5%;
+}
+
+.metaverso .cert{
+    width: 90vw;
+}
